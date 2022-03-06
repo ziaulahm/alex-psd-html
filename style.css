@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 52px;
+}
+
+h3 {
+  font-size: 27px;
+  line-height: 37px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h6 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #6c6c6c;
+}
+
+ul, ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #000;
+}
+a:hover {
+  color: #362bc7;
+}
+
+a:hover {
+  color: #362bc7;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+}
+
+/* ====================
+Spacing
+===================== */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+/* ====================
+Buttons
+===================== */
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 20px 35px;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+}
+
+.btn-grey-outline {
+  padding: 13px 25px;
+  border-color: #000;
+  background: transparent;
+}
+.btn-grey-outline:hover {
+  background: #362bc7;
+  color: #fff;
+  border-color: #362bc7;
+}
+
+.btn-sm {
+  padding: 10px 25px;
+}
+
+.header-menu {
+  background: #232f3a;
+}
+
+.main-menu ul li {
+  list-style-type: none;
+  display: block;
+  margin-right: 30px;
+}
+.main-menu ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
